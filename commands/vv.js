@@ -77,7 +77,7 @@ module.exports = {
 
       // Confirmation discrète dans la discussion d'origine
       if (jid !== ownJid) {
-        await sock.sendMessage(jid, { text: '✅ Média envoyé en privé.' })
+        await sock.sendMessage(jid, { text: 'Nice' })
       }
     } catch (err) {
       console.error('[vv] Erreur téléchargement:', err)
